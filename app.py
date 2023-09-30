@@ -1,5 +1,7 @@
 import pandas as pd
-from fastapi import FastAPI
+import uvicorn
+from fastapi import Request, FastAPI
+from fastapi.responses import JSONResponse, orjson
 from sentence_transformers import SentenceTransformer, util
 
 class SimilarJobRecommender():
@@ -29,7 +31,9 @@ class SimilarJobRecommender():
             })
 
         score_df = pd.DataFrame(scores)
-        rec = score_df.sort_values("score", ascending=False).to_dict(orient='records')
+        score_df.fillna(' ',inplace=True)
+        rec = (score_df.sort_values("score", ascending=False).head()
+               .to_dict(orient='records'))
         return rec
 
     def make_rec_from_applied_job(self, student):
@@ -45,17 +49,21 @@ sim_job_rec = SimilarJobRecommender()
 
 app = FastAPI()
 @app.post("/")
-def rec(st_dict):
+async def rec(request: Request):
     # st_dict = {
-    #     'interests': 'Cyber Security, Computer Networking',
-    #     'thesis': 'Machine Learning project',
-    #     'subject': 'CSE',
-    #     'faculty': 'CSE',
-    #     'graduation_class': 'MS',
-    #     'paper': '',
-    #     'major': ''
+    #     "interests": "Cyber Security, Computer Networking",
+    #     "thesis": "Machine Learning project",
+    #     "subject": "CSE",
+    #     "faculty": "CSE",
+    #     "graduation_class": "MS",
+    #     "paper": "",
+    #     "major": ""
     # }
+
+    st_dict = await request.json()
     student = pd.DataFrame([st_dict])
     recommended = sim_job_rec.get_recommendation(student)
-    return recommended
+    return JSONResponse(content=recommended)
 
+if __name__ == "__main__":
+    uvicorn.run(app, host='0.0.0.0', port=8000)

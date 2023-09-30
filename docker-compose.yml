@@ -5,7 +5,7 @@ services:
         restart: always
         ports:
         - "8030:8000"
-        volumes:
-            - cache-data:/
+#        volumes:
+#            - cache-data:/
 volumes:
   cache-data:
