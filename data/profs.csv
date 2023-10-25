@@ -1,13 +1,45 @@
-id,name,position,teaching areas,interests,consultancy,supervision,faculty,major,subject,publication
-0,,Senior Lecturer,"Engineering Mathematics, Computer Fundamentals
-Software Development ","Heuristic Search
-High Performance Computing
-Practical Application of Computer Technology",Mathematical modelling,, Engineering Mathematics and Computing,,,Alignment method with application to gas chromatography / mass spectrometry screening
-1,,Senior Lecturer,"Cyber Security
-End-points and Network Security","Cyber Security
-Computer Networking
-Educational Technology (E-Learning, Virtual Learning Environments, Course Management Systems, Computer Based Assessment, etc.)
-Medical Informatics and Assessment","British Council DelPHE-Iraq Project (2011-2012) with Kufa University, Iraq. Project Coordinator and Budget Holder (£73K)
-Two Innovation Voucher projects – Lead investigator (£6K)
-The Dean of CATS Pump-priming project – Working on the development of a CPD system for Medical Doctors, GPs and other health workers (£500)
-TEMPUS CME 1069. UK Project and Team Manager (1996-1997) in partnership with Cracow University of Technology, Poland",Dr Ali Mansour has successfully completed a number of PhD researchers and is currently a Director of Studies and second supervisor for MPhil/PhD students within his research areas (See Research Interests above).,Computing and Information Systems,,,Simple Linctus & The Wellcome Trust Videodisc Project’s Challenge Option: Intelligent Tutoring Systems for Teaching Medical Decision Making
+id,name,position,department,teaching areas,interests,supervision,faculty,major,subject,publication
+1,Dayou Li,Acting Head,Robotics,"Robotics, Artificial Intelligence, Software Engineering, Programming","Multiagent Systems for Optimisation,
+Fuzzy Logic and Neural Networks and Their Applications,
+Machine Learning,
+E-Learning,
+Automatic Control and Modelling",,"
+School Of Computer Science And Technology",,Robotics,"Fuzzy Systems for Modelling, Control and Diagnosis, (contract has been signed with Academic Press),
+Asynchronous distributed planning using collaborative agents” (submitted to Journal of Artificial Intelligence Research),
+An non-iterative algorithm of fuzzy rules induction” (submitted to Applied Artificial Intelligence)"
+2,Renxi Qiu,Associate Professor,Cloud Computing & Distributed Systems,"Software Engineering & Object-Oriented Programming,
+Robotics & Cybernetics,
+Cloud Computing & Distributed Systems,","Software Engineering & Object-Oriented Programming,
+Robotics & Cybernetics,
+Cloud Computing & Distributed Systems",,"
+School Of Computer Science And Technology",,Cloud Computing,"5G Enhanced Robot Autonomy (H2020) Jan 2021 - Jun 2024 GRANT_NUMBER: 101016681. Value:699,500EUR for BED and 6M EUR in total. Role: PI & Project Scientific Coordinator,
+Transfer Learning for Event Management (Innovate UK) May 2020 - May 2022 GRANT_NUMBER: KTP011938. Value: 171,412 GBP. Role: PI,
+Micro/Nano Robotics for Single Cells (H2020) Jan 2017 - Oct 2022 GRANT_NUMBER: 734174. Value: 153,000 EUR. Role: PI"
+3,Enjie Liu,Professor,Networking,"Wireless networking,
+Data Communications,
+Managing Networks,
+e-Commerce Technology","Big data management and mining,
+Applications for Internet of Things (IoT),
+Mobility management with Femtecells,
+Handset energy efficiency in mobile networks",,School Of Computer Science And Technology,,Network Engineering,"The Characterisation and modelling of the wireless propagation channel in small cell scenarios, director of study, awarded
+A liner logic approach to RESTful Web service modelling and composition, director of study, awarded
+Cross-tier handover and interference mitigation in LTE Macrocell-Femtocell Network, director of study, passed viva"
+4,Marc Conrad,Principal Lecturer,IT Project Management,"Programming Languages, Object Orientation, Event Driven Software Development,
+Interoperability, Virtual Identity, Version Control, Full Stack Development, Internet Standards and Distributed Architectures,
+Research Methodologies and Project Management","Cross-cultural and localized software development,
+Secure application development and gamification.
+Remote collaborations and virtual reality,
+New pedagogical approaches teaching Information Technology,
+Professional approaches in Data Science,
+Cyclotomic Units",,School Of Computer Science And Technology,,Computing and Information Systems,"Impact of Data protection and Privacy on e-Government Adoption (PhD),
+Cyberharassment: Platform for Evidence Gathering, Assessing Risk & Managing Policing (Police Innovation Fund),
+Designing an Engaging Learning Universe for Situated Interactions in Virtual Environments (PhD)"
+5,Rebecca Harrop,Senior Lecturer,Cybersecurity,"Cybersecurity and Networking,
+Computer Systems and Platforms,
+Creative Technologies, Graphic and Games Design","Human factors in Cybersecurity Defence,
+The Art of Social Engineering,
+Cyberpsychology and human-machine interaction,
+Diversity in Digital Skills and improving Cybersecurity education,
+Wireless and IoT Assistive Technology Solutions",,,,Cybersecurity,"Smith, A. Et al (2020), Cybersecurity Operations Microcredential. Open University - Future Learn,
+All-party Parliamentary Group (APPG) on Cyber-Security (2019) - National Cyber-Security Skills Strategy - Call for Views
+Stracke, C., Et al (2012). ‘E-VIWO - Education in a Virtual World’, The Future of Learning Innovations and Learning Quality: How do they fit in? European Project."
